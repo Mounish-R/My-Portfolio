@@ -17,7 +17,7 @@ const EducationSection = () => {
     {
       degree: "LKG - SSC - HSC",
       school: "SVV Matriculation Higher Secondary School - Gobi",
-      logo: "/public/svv-logo.jpeg",
+      logo: "/svv-logo.jpeg",
       year: "2007-2022",
       achievements: ["Percentage: 81.8"],
       skills: ["Computer Science","Mathematics", "Physics", "Chemistry", "Biology","Social Science","English","Tamil"],
@@ -27,7 +27,7 @@ const EducationSection = () => {
     {
       "degree": "BE - CSE",
       "school": "Bannari Amman Institute of Technology - Sathy",
-      logo: "/public/clg-logo.png",
+      logo: "/clg-logo.png",
       "year": "2022-2026",
       "achievements": ["GPA: 7.8"],
       "skills": ["Python", "Linux", "DevOps", "Problem-Solving", "SAP IBP"],
