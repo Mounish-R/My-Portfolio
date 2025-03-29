@@ -17,7 +17,7 @@ const EducationSection = () => {
     {
       degree: "LKG - SSC - HSC",
       school: "SVV Matriculation Higher Secondary School - Gobi",
-      mascot: "📘",
+      logo: "/src/assets/images/svv-logo.jpeg",
       year: "2007-2022",
       achievements: ["Percentage: 81.8"],
       skills: ["Computer Science","Mathematics", "Physics", "Chemistry", "Biology","Social Science","English","Tamil"],
@@ -27,7 +27,7 @@ const EducationSection = () => {
     {
       "degree": "BE - CSE",
       "school": "Bannari Amman Institute of Technology - Sathy",
-      "mascot": "📗",
+      logo: "/src/assets/images/clg-logo.png",
       "year": "2022-2026",
       "achievements": ["GPA: 7.8"],
       "skills": ["Python", "Linux", "DevOps", "Problem-Solving", "SAP IBP"],
@@ -59,12 +59,6 @@ const EducationSection = () => {
 
   return (
     <section className="min-h-screen relative overflow-hidden py-40 bg-[#04081A]">
-      {/* Grid Background */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-grid-white/[0.05] bg-[length:50px_50px]" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#04081A] via-transparent to-[#04081A]" />
-        <div className="absolute inset-0 border border-white/[0.05] grid grid-cols-2 md:grid-cols-4" />
-      </div>
 
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         <motion.div
@@ -100,19 +94,22 @@ const EducationSection = () => {
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
-              <div className="space-y-6">
-                <div className="space-y-2">
-                  <div className="flex items-center gap-3">
+              <div className="space-y-7">
+                <div className="space-y-5">
+                  <div className="flex items-center gap-100">
                     <span className="text-3xl">{edu.mascot}</span>
+                      
                     <h3 className="text-2xl font-bold text-white">
                       {edu.degree}
                     </h3>
                   </div>
                   <p className="text-lg text-gray-300 flex items-center gap-4">
-                    <BookOpen className="w-9 h-7 text-teal-500" />
+                      {edu.logo && (
+                        <img src={edu.logo} alt="School Logo" className="w-20 h-20 rounded-md object-contain" />
+                      )}
                     {edu.school}
                   </p>
-                  <p className="text-gray-400 flex items-center gap-4">
+                  <p className="text-green-400 flex items-center gap-1">
                     <Calendar className="w-9 h-5" />
                     {edu.year}
                   </p>
