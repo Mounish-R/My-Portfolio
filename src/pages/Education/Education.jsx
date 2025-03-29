@@ -104,9 +104,13 @@ const EducationSection = () => {
                     </h3>
                   </div>
                   <p className="text-lg text-gray-300 flex items-center gap-4">
-                      {edu.logo && (
-                        <img src={edu.logo} alt="School Logo" className="w-20 h-20 rounded-md object-contain" />
-                      )}
+                    {edu.logo && (
+                      <img
+                        src={edu.logo}
+                        alt="School Logo"
+                        className="w-20 h-20 rounded-md object-contain"
+                      />
+                    )}
                     {edu.school}
                   </p>
                   <p className="text-green-400 flex items-center gap-1">
