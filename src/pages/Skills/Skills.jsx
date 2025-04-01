@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import Meteors from "@/components/ui/meteors";
 import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
 import {
   FaReact,
@@ -213,6 +214,10 @@ const SkillsSection = () => {
 
   return (
     <main className="pt-32 lg:pt-40 text-white min-h-screen bg-[#04081A] relative">
+      {/* Meteors Effect */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <Meteors number={20} />
+      </div>
 
       <section className="container mx-auto px-4 py-11 relative z-10 flex justify-center mt-05">
        

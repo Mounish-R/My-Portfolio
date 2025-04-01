@@ -224,7 +224,7 @@ profile = {
 
                   {/* Profile Image */}
                   <img
-                    src="/src/assets/images/hero.jpg"  
+                    src="/hero.png"  
                     alt="Mounish R"
                     className="w-64 h-64 rounded-full mt-4 border-4 border-teal-500 shadow-lg mx-auto"
                   />

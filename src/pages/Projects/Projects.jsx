@@ -7,7 +7,7 @@ import {
   Award,
   Filter,
 } from "lucide-react";
-import project from "@/assets/images/hero.jpg";
+import project from "/hero.jpg";
 
 const ProjectShowcase = () => {
   const [filter, setFilter] = useState("All");
@@ -40,13 +40,6 @@ const ProjectShowcase = () => {
 
   return (
     <div className="min-h-screen bg-[#04081A] py-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-      {/* Background Elements */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
-        {/* Modern grid pattern */}
-        <div className="absolute inset-0">
-          <div className="h-full w-full bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:40px_40px]"></div>
-        </div>
-      </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Header */}
@@ -57,7 +50,6 @@ const ProjectShowcase = () => {
                 Projects
               </span>
             </h1>
-            <div className="absolute -bottom-2 left-0 w-full h-3 bg-gradient-to-r from-cyan-500 to-emerald-500 opacity-70 blur-sm"></div>
           </div>
           <p className="text-slate-300 max-w-2xl mx-auto text-lg">
             Explore my creative journey through code and design
