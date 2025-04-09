@@ -15,7 +15,7 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "LKG - SSC - HSC",
+      degree: "PRE_KG - SSC - HSC",
       school: "SVV Matriculation Higher Secondary School - Gobi",
       logo: "/svv-logo.jpeg",
       year: "2007-2022",
