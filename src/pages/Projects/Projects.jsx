@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Github, ExternalLink } from "lucide-react";
-import projectImage from "/project1.png";
+
 
 
 const ProjectShowcase = () => {
@@ -94,7 +94,6 @@ const ProjectShowcase = () => {
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 group-hover:brightness-90"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#0a1428]/50 opacity-70 group-hover:opacity-80"></div>
                 </div>
 
                 <div className="md:w-1/2 p-8 relative backdrop-blur-sm bg-[#0a1428]/30 group-hover:bg-[#081020]/50 transition-all duration-300">
