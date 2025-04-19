@@ -97,7 +97,7 @@ profile = {
               {/* Decorative blurs */}
               <div className="absolute hidden lg:-top-20 lg:-left-20 lg:block w-48 h-48 lg:w-64 lg:h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
               <div className="absolute hidden lg:block lg:top-40 lg:-right-20 w-48 h-48 lg:w-64 lg:h-64 bg-teal-500/10 rounded-full blur-3xl"></div>
-
+              
               {/* Welcome badge */}
               <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 mb-6 sm:mb-8 animate__animated animate__fadeInDown animate__delay-1s">
                 <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></div>
@@ -226,7 +226,9 @@ profile = {
                   <div className="window-header">
                     <div className="window-dot bg-red-500"></div>
                     <div className="window-dot bg-yellow-500"></div>
+                    <a href="https://docs.google.com/spreadsheets/d/1Z2LDOvH1Si1CFZ9VUFVtF-d58S4w9_vULQVQg4F9QfY/edit?gid=1443580368#gid=1443580368" target="_blank" rel="noopener noreferrer">
                     <div className="window-dot bg-green-500"></div>
+                    </a>
                     <span className="ml-2 text-sm text-gray-400 flex items-center gap-">
                       <i className="fas fa-code"></i>
                       About Me
